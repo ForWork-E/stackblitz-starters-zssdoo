@@ -6,7 +6,8 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: rgb(75, 68, 68);
+  border: red double;
 }
 
 nav {
@@ -42,6 +43,31 @@ main {
 
 h1 {
   background-color: rgb(8, 8, 8); 
-  border: 12px double rgb(2, 114, 8); 
+  border: 28px double rgb(2, 114, 8); 
   color: rgb(255, 0, 0);
+  border-bottom: 15px red dotted;
+  border-left: 15px blue solid;
+  border-right: 15px yellow solid;
+  border-width: 150px;
+  text-align: center;
 }
+
+.skole {
+  border: 28px rebeccapurple dotted;
+  background-color: black;
+  text-align: center;
+  color: red;
+  margin: 28px;
+  height: 150px 50px;
+}
+
+
+.hjemme {
+  border: 28px rebeccapurple double;
+  background-color: black;
+  text-align: center;
+  color: red;
+  margin: 28px;
+  height: 150px 50px;
+}
+
